@@ -1,0 +1,79 @@
+baseURL = "https://example.com"
+title = "Tulip's microblog"
+languageCode = "en"
+DefaultContentLanguage = "en"
+preserveTaxonomyNames = true
+
+[module]
+  [[module.imports]]
+    path = "gitlab.com/jmfergeau/hugo.386"
+
+[params]
+    mainpagetitle = "The hub"
+    mainpagesubtitle = "Welcome to the hub!" 
+    mainpagedesc = "This is an experimental microblog for rambling about anything I feel like."
+    copyrightname = "Tulip"
+    copyrighturl = ""
+    showhugo = true
+    twitter = "https://mstdn.social/@tulilirockz"
+    github = "https://github.com/tulilirockz"
+    gitlab = "https://gitlab.com/tulimenot"
+    loadfastload = false
+    loadspeedfactor = 3.5
+    loadonepass = true
+
+[params.copyright]
+    name = "Tulip"
+    url = "https://gihtub.com/tulilirockz/microblog"
+    prefix = ""
+    suffix = ""
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "create_your_own"
+    name = "Creating Your Own"
+    url = "/post/create_your_own/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "/post/"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
