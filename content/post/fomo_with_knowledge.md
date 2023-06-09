@@ -1,7 +1,7 @@
 +++
 author = "Tulip"
-title = "{{ replace .Name "-" " " | title }}"
-date = "{{ .Date }}"
+title = "FOMO when it comes to knowing things!"
+date = "2023-06-09"
 description = "FOMO is a scary feeling, especially when it comes to knowledge and doing things"
 tags = [
     "Rambling",
