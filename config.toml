@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://tulilirockz.github.io"
 title = "Tulip's microblog"
 languageCode = "en"
 DefaultContentLanguage = "en"
@@ -31,14 +31,9 @@ preserveTaxonomyNames = true
 [menu]
   [[menu.main]]
     identifier = "about"
-    name = "About"
-    url = "/about/"
+    name = "About Me"
+    url = "/post/aboutme"
     weight = 10
-  [[menu.main]]
-    identifier = "create_your_own"
-    name = "Creating Your Own"
-    url = "/post/create_your_own/"
-    weight = 30
 
   [[menu.main]]
     identifier = "posts"
@@ -52,26 +47,20 @@ tag = "tags"
 
 
 [privacy]
-
   [privacy.vimeo]
-    disabled = false
-    simple = true
+    disabled = true
 
   [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+    disabled = true
 
   [privacy.instagram]
-    disabled = false
-    simple = true
+    disabled = true
 
   [privacy.youtube]
-    disabled = false
+    disabled = true
     privacyEnhanced = true
 
 [services]
-
   [services.instagram]
     disableInlineCSS = true
 
