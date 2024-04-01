@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  default:
+    cmds:
+      - hugo serve
+  post:new:
+    cmds:
+      - hugo new {{.CONTENT_FOLDER}}/{{.NAME}}.md
+    vars:
+      CONTENT_FOLDER: content/post
